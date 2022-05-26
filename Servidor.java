@@ -1,7 +1,7 @@
 package chatmulti;
 /* Pacotes usados para montar a classe servidor. Nada mais é do que códigos
-   já montados que utilizamos para diminuir o código, assim poupando de fazer 
-   toda uma classe nova dentro desta nossa.(Cada pacote será explicado 
+   já montados que utilizamos para diminuir o nosso, assim poupando de fazer 
+   toda uma classe nova dentro desta.(Cada pacote será explicado 
    durante o código para que a linha de raciocínio seja melhor)*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -147,7 +147,7 @@ public class Servidor extends Thread {
             /*representa um campo de texto onde o usuário pode informar um texto 
               em uma linha, linha essa que será a senha para entrar na porta*/
             JTextField txtPorta = new JTextField("12345");
-            /**/
+            /*Objeto que recebe o texto*/
             Object[] texts = {lblMessage, txtPorta};
             /*JOptionPane possibilita a criação de uma caixa de dialogo padrão 
             que ou solicita um valor para o usuário ou retorna uma informação.*/
